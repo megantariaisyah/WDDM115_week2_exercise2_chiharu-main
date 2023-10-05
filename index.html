@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDDM113t</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="Heading">
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" width="50px">
+                </div>
+                <div class="nav-content">
+                    <div class="nav-button">PORTFOLIO</div>
+                    <div class="nav-button">ABOUT</div>
+                    <div class="nav-button">RESUME</div>
+                </div>
+            </div>
+        </nav>
+        <p><img src="images/portfolio_hero.png" alt="work" class="hero_picture"></p>
+    </div>
+    <div class="content-intro">
+        <div class="introduction">
+
+            <div class="title"> Senior visual designer/art director</div>
+            <p>I'm Chiharu, a senior visual designer/art director with 7+ years of experience in a marketing agency in
+                Japan. My specialization is branding and digital advertisements including web.
+                I worked on lots of projects for Panasonic, Glico, Asahi, and other national brands in Japan. </p>
+        </div>
+    </div>
+
+    <!--Exercise 1.1 adding HTML element-->
+
+    <!-- table -->
+    <div class="content">
+        <div class="conteiner_table">
+            <div class="title">Work Experience</div>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>company</th>
+                    <th>position</th>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>First Co.Ltd</td>
+                    <td>GRAPHIC DESIGNER</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>First Co.Ltd</td>
+                    <td>ART DIRECTOR</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- contact -->
+        <div class="container-contact">
+            <div class="title">Contact Form</div>
+
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">E-mail</label>
+                    <input type="text" id="lname" name="lastname" placeholder="sample@mail.com">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="Japan">Japan</option>
+                        <option value="canada">Canada</option>
+                        <option value="UK">UK</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-container">
+        <figcaption>&copy;2023 Chiharu Higashi</figcaption>
+    </div>
+
+
+    <script src="MainScript.js"></script>
+
+
+</body>
+
+</html>
